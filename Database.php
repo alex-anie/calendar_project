@@ -37,4 +37,5 @@ class Database {
         $this->query($sql, $params);
         return $this->statement->fetch();
     }
+
 }
