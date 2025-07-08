@@ -18,6 +18,6 @@ function resolve(){
     if(array_key_exists($url, $routes)){
         require_once '../' . $routes[$url];
     }else {
-        require_once '../includes/404.php';
+        require_once '404.php';
     }
 }

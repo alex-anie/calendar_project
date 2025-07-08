@@ -4,7 +4,7 @@ class Database {
     public $pdo;
     public $statement;
 
-    function __construct($host = 'localhost', $db = 'course_calendar', $user = 'root', $pass = '4444', $charset = 'utf8mb4'){
+    function __construct($host = 'localhost', $db = 'validation', $user = 'root', $pass = '4444', $charset = 'utf8mb4'){
         $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
         $options = [
