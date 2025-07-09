@@ -6,5 +6,8 @@
         <li>
             <a href="/name">Names</a>
         </li>
+        <li>
+            <a href="/username">Usernames</a>
+        </li>
     </ul>
 </nav>
