@@ -27,7 +27,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
     if(empty($error_statement)){
         try{
-              $db->query("INSERT INTO `usernames`(usernames) VALUES(:usernames)", [
+            $db->query("INSERT INTO `usernames`(usernames) VALUES(:usernames)", [
             'usernames' => $username
             ]);
 

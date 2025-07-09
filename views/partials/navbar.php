@@ -9,5 +9,8 @@
         <li>
             <a href="/username">Usernames</a>
         </li>
+        <li>
+            <a href="/more">More</a>
+        </li>
     </ul>
 </nav>
