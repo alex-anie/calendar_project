@@ -12,5 +12,8 @@
         <li>
             <a href="/more">More</a>
         </li>
+        <li>
+            <a href="/media">Media</a>
+        </li>
     </ul>
 </nav>
